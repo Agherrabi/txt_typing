@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(58, 56, 56);
+     color: white;
+}
+.container{
+    
+    height: 100vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    
+}
+ p{
+     font-size: 3rem;
+     font-weight: bold;
+     letter-spacing: 0.1rem;
+     text-align: center;
+     overflow: hidden;
+     padding: 0.5rem;
+ }
+ .text-typing{
+     font-weight: normal;
+     color: #dd7732;
+ }
+
+ .cursor{
+    display: inline-block;
+    width: 3px;
+    color: #ccc;
+    margin-left: 0.1rem;
+    animation: block 1s infinite;
+ }
+
+
+ @keyframes block{
+     0% {background-color: white}
+     49% {background-color: white}
+     50% {background-color: transparent}
+     99% {background-color: transparent}
+     50% {background-color: white}
+ }
