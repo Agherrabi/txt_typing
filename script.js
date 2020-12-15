@@ -1,6 +1,6 @@
 const typedTxtspan = document.querySelector(".text-typing")
 
-const arrayTxt = ["Simple","Beautifull","Good","Hard","One ."]
+const arrayTxt = ["Simple","Beautifull","Hard","One ."]
 const typingDelay = 200;
 const erasingDelay = 100;
 const newtXTDelay = 2000;
