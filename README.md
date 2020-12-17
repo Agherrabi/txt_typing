@@ -1,2 +1,2 @@
 
- ==>  https://typingtxt.netlify.app/
+ ===>  https://typingtxt.netlify.app/
